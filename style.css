@@ -1,0 +1,34 @@
+#game-container{
+    background-color:  rgb(147, 154, 147);
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 27px;
+  }
+    h1{
+      background-color: rgb(15, 15, 15);
+      margin: auto;
+      margin-top: 25px;
+      text-align: center;
+      color: white;
+    }
+    .btn{
+      background-color: rgb(38, 185, 38);
+      width: 100px;
+      height: 45px;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    .btn:hover{
+      background-color: darkgreen;
+    }
+    .game-box{
+      background-color: rgb(249, 249, 252);
+      height: 63px;
+      margin: 5px;
+      width: 106px;
+      font-size: 43px;
+      text-align: center;
+    }

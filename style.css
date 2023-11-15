@@ -1,34 +1,151 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #faf8ef;
+  color: #776e65;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+
+}
 #game-container{
-    background-color:  rgb(147, 154, 147);
-    width: 500px;
-    height: 350px;
-    margin: auto;
-    margin-top: 25px;
-    padding: 27px;
+  background: #bbada0;
+  height: 450px;
+  width: 450px;
+  margin-top: 32px;
+  padding: 16px;
+
   }
-    h1{
-      background-color: rgb(15, 15, 15);
-      margin: auto;
-      margin-top: 25px;
+   
+    .boxstyle{
+      border-radius: 3px;
+      background: rgba(238,228,218,.35);
+      width: 98px;
+      height: 98px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      font-size: 40px;
+      line-height: 98px;
       text-align: center;
+      font-weight: 600;
+      color: #776e65;
+      font-family: clear sans,helvetica neue,Arial,sans-serif;
+  
+  }
+ #label{
+       margin-left: 48px;
+    }
+ .gameOverOverlay {
+  position: fixed;
+  top: 175px;
+  left: 542px;
+  width: 448px;
+  height: 452px;
+  background: rgba(238,228,218,.5);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+   
+  }
+.gameOverMessageStyle{
+  color: #776e65;
+
+}
+ .gameOverButton {
       color: white;
-    }
-    .btn{
-      background-color: rgb(38, 185, 38);
-      width: 100px;
-      height: 45px;
-      color: white;
-      border: none;
-      border-radius: 4px;
-    }
-    .btn:hover{
-      background-color: darkgreen;
-    }
-    .game-box{
-      background-color: rgb(249, 249, 252);
-      height: 63px;
-      margin: 5px;
-      width: 106px;
-      font-size: 43px;
+      font-size: 24px;
       text-align: center;
-    }
+      padding: 12px;
+      background-color: rgb(9, 9, 9);
+      border-radius: 10px;
+  }
+ .gameHeadingContainer{
+    display: flex;
+    display: flex;
+    text-align: center;
+    margin-left: 404px;
+    margin-right: 336px;
+}
+.gameHeading{
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 15px;
+  display: block;
+  line-height: 66px;
+  color: #776e65;
+  font-family: clear sans,helvetica neue,Arial,sans-serif;
+  
+}
+.scoreContainer{
+  float: right;
+  text-align: right;
+  color: #776e65;
+  border: none;
+  font-family: clear sans,helvetica neue,Arial,sans-serif;
+  font-size: 18px;
+  margin-top: 14px;
+  width: 50%;
+  margin-left: 70px;
+}
+.scoreInputField{
+  position: relative;
+  display: inline-block;
+  background: #bbada0;
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 59px;
+  line-height: 47px;
+  font-weight: 700;
+  border-radius: 3px;
+  color: #fff;
+  margin-top: 8px;
+  text-align: center;
+  width: 38%;
+}
+a{
+  color: black;
+  font-style: bold;
+  font-weight: 300px;
+}
+a :hover{
+  color: black;
+  font-style: bold;
+  font-weight: 300px;
+}
+#HTP{
+  margin-top: 50px;
+  color: black;
+  width: 60px;
+}
+.HTP{
+  margin-top: 8px;
+  margin-left: 404px;
+}
+.tryAgain{
+  margin-left: 939px;
+  margin-top: -22px;
+}
+.tryAgainBtn{
+  background: #8f7a66;
+  text-decoration: none;
+  color: #f9f6f2;
+  /* height: 40px; */
+  line-height: 38px;
+  display: block;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  /* padding-top: 7px; */
+  padding-bottom: -4px;
+  font-size: 17px;
+  font-family: clear sans,helvetica neue,Arial,sans-serif;
+  font-weight: 700;
+  border: #8f7a66;
+  border-radius: 3px;
+}
+h6{
+  margin: -10px;
+  padding: 0px;
+}

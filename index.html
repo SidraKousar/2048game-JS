@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/clear-sans" type="text/css"/>
     <title>Document</title>
 </head>
 <body>
-    <h1>2048</h1>
-    <div id="game-container" class="grid-container"></div>
-    <button class="btn">Start</button>
-    <button class="btn">Try Again</button>
+    <div class="gameHeadingContainer" >
+        <h1  class="gameHeading">2048</h1>
+        <div class="scoreContainer">
+       <div  class="scoreInputField" id="scoreCalculation" >
+        <div>
+          <h6>Score</h6>
+        </div>
+        <p><span id="ScoreCalculation">0</span></p>
+       </div>
+       <div  class="scoreInputField" id="bestScoreCalculation" >
+        <div>
+          <h6>Best</h6>
+        </div>
+        <p><span id="BestScoreCalculation">0</span></p>
+       </div>
+       </div>
+     </div>
+     <div class="HTP"> 
+      <p>Join the tiles, get to 2048!</p>
+      <a href="">How to play?</a>
+     </div>
+     <div class="tryAgain">
+       <button class="tryAgainBtn" onclick="resetGame() ">New Game</button>
+     </div>
+    <div id="game-container" class="container"></div>
+    <div class="container" id="HTP">
+      <!-- <p>HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!</p> -->
+    </div>
 
     <script src="script.js"></script>
 </body>
